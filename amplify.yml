@@ -7,6 +7,9 @@ env:
     REACT_APP_IDENTITY_POOL_ID: ap-northeast-1:f16394df-45dd-41f5-9737-320e55cdc6f9
 frontend:
   phases:
+    preBuild:
+      commands:
+        - npm ci
     build:
       commands:
         - npm run build
