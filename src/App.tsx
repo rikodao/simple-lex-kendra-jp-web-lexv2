@@ -15,6 +15,8 @@ function App() {
   return (
     <div className="flex flex-col items-center h-screen">
       <h1 className="text-4xl my-6 text-gray-600">LexV2 Chatbot サンプル</h1>
+      <a src="https://github.com/aws-samples/simple-lex-kendra-jp">simple-lex-kendra-jp</a>
+      
 
       {dummyContents}
 
