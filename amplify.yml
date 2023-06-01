@@ -1,0 +1,16 @@
+version: 1
+env:
+  variables:
+    REACT_APP_REGION: ap-northeast-1
+    REACT_APP_BOT_ALIAS_ID: 7PEO8IP3ED
+    REACT_APP_BOT_ID: JPTY7ROBKU
+    REACT_APP_IDENTITY_POOL_ID: ap-northeast-1:f16394df-45dd-41f5-9737-320e55cdc6f9
+frontend:
+  phases:
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'

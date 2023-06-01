@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-weblexv2-dev-104443-authRole",
+      "UnauthRoleArn": "arn:aws:iam::791843827544:role/amplify-weblexv2-dev-104443-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::791843827544:role/amplify-weblexv2-dev-104443-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-weblexv2-dev-104443-deployment",
+      "UnauthRoleName": "amplify-weblexv2-dev-104443-unauthRole",
+      "StackName": "amplify-weblexv2-dev-104443",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:791843827544:stack/amplify-weblexv2-dev-104443/52cae9e0-0069-11ee-9286-061c3630b8cd",
+      "AmplifyAppId": "d10mmym8sn3g6b"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d10mmym8sn3g6b",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
